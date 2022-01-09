@@ -9,7 +9,7 @@ button{
 }
 #container{
     display: block;
-     border: 1px dashed black; 
+/*      border: 1px dashed black;  */
     width: inherit;
     height: inherit;
     margin: 2px auto;
