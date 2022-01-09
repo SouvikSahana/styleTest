@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+button{
+    padding: 10px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+#container{
+    display: block;
+     border: 1px dashed black; 
+    width: inherit;
+    height: inherit;
+    margin: 2px auto;
+    /* background-color: rgb(220, 220, 235); */
+   padding: 300px ;
+   position: relative;
+}
+.main{
+    border: 4px solid red;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    animation: color 4s infinite;
+    z-index: 1;
+}
+@keyframes color{
+    0%{border-color: red;}
+    16%{border-color: orange;}
+    32%{border-color: yellow;}
+    48%{border-color: green;}
+    64%{border-color: blue;}
+    80%{border-color: indigo;}
+    96%{border-color: violet;}
+}
